@@ -1,0 +1,29 @@
+/*360 grados*/
+.prdctvrtl {
+    background: #016e97;
+    overflow-x: scroll;
+}
+
+.content .prdctvrtl {
+    width: 699px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    overflow-x: hidden;
+}
+
+.prdctvrtlb {
+    background: #fff;
+    overflow-x: scroll;
+}
+
+.content .prdctvrtlb {
+    width: 543px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    overflow-x: hidden;
+}
+
+.prdctvrtlh {
+    background: #fff;
+    padding-bottom: 10px;
+}

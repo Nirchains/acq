@@ -1,0 +1,278 @@
+@media (min-width: 768px) {
+    .text-50 h2 {
+        font-size: 20px;
+    }
+    .informate-title {
+        min-height: 60px;
+    }
+    .informate-content {
+        min-height: 60px;
+    }
+}
+
+@media (max-width: 991px) {
+    .caption-center {
+        display: none;
+    }
+    .caption-right {
+        height: inherit;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .hablamos_informate {
+        width: 100% !important;
+    }
+    .hablamos_informate .col-sm-4,
+    .hablamos_informate .col-sm-8 {
+        height: 350px;
+    }
+    .hablamos_informate .col-sm-4 p {
+        line-height: 14px;
+    }
+    .hablamos_informate .col-sm-4 h5 {
+        font-size: 34px;
+    }
+    #sepserv {
+        margin-top: 0px !important;
+    }
+    .cafe_info p {
+        z-index: 20;
+        left: 0;
+        margin-left: 0;
+    }
+    .cafe_continfo {
+        z-index: 100;
+        right: 0;
+    }
+    .menu_cafe {
+        z-index: 200;
+    }
+    /*Header*/
+    h1 {
+        font-size: 34px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 625px) and (max-width: 767px) {
+    .hablamos_informate {
+        width: 100% !important;
+        top: 140px;
+        position: absolute;
+    }
+    .hablamos_informate .col-sm-8 {
+        border: none;
+    }
+    .cafe_info_angel_leon {
+        width: 300px;
+        top: 40px;
+    }
+    .cafe_info p {
+        top: 400px;
+        z-index: 20;
+        width: 100%;
+        margin-left: 0;
+    }
+    .cafe_continfo {
+        z-index: 100;
+        right: 0;
+    }
+    .menu_cafe {
+        z-index: 200;
+    }
+    .servicio_info p {
+        margin-left: 0 !important;
+        width: 100%;
+        top: 80px;
+        left: 0;
+    }
+    .servicio_info img {
+        top: 270px;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 624px) {
+    .hablamos_informate {
+        width: 100% !important;
+        top: 140px;
+        position: absolute;
+    }
+    .hablamos_informate .col-sm-8 {
+        height: 400px;
+        border: none;
+    }
+    .cafe_info_angel_leon {
+        width: 300px;
+        top: 40px;
+    }
+    .cafe_info p {
+        top: 400px;
+        z-index: 20;
+        width: 100%;
+        margin-left: 0;
+    }
+    .cafe_continfo {
+        z-index: 100;
+        display: none;
+    }
+    .menu_cafe {
+        z-index: 200;
+    }
+    .servicio_info p {
+        margin-left: 0 !important;
+        width: 100%;
+        top: 80px;
+        left: 0;
+    }
+    .servicio_info img {
+        top: 260px;
+    }
+    .variedades_info .cnt img {
+        height: 80px;
+        padding: 0;
+        margin: 0;
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        -o-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    .complementos_info h5 {
+        font-size: 35px;
+    }
+    .menu_informate {
+        margin-top: 0px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .acc-down-inc {  
+        font-size: 18px;
+    }
+    .text-50 h2 {
+        padding-top: 0;
+        font-size: 14px;
+    }
+    .text-50-inc h3 {
+        font-size: 20px;
+    }
+    .acc-down {
+        font-size: 14px;
+    }
+    .btn-readmore {
+        font-size: 14px;
+    }
+    ul.navbar-nav li a {
+        padding: 5px;
+    }
+    .navbar-collapse {
+        max-height: none;
+    }
+    .navbar-header {
+        padding-left: 10px;
+    }
+    /*Header*/
+    h1 {
+        font-size: 26px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+
+    .menu_informate img {
+        max-width: 365px;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn-know-more,
+    .btn-characteristics {
+        background-position: center center;
+        text-indent: -9999px;
+        white-space: nowrap;
+        width: 40%;
+    }
+
+    /*Header*/
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    .hablamos_informate {
+        width: 100% !important;
+        top: 140px;
+        position: absolute;
+    }
+    .hablamos_informate .col-sm-8 {
+        height: 430px;
+        border: none;
+    }
+    .cafe_info_angel_leon {
+        width: 100%;
+        top: 40px;
+    }
+    .cafe_info p {
+        top: 400px;
+        z-index: 20;
+        width: 100%;
+        margin-left: 0;
+    }
+    .cafe_continfo {
+        z-index: 100;
+        display: none;
+    }
+    .menu_cafe {
+        z-index: 200;
+    }
+    .servicio_info p {
+        margin-left: 0 !important;
+        width: 100%;
+        top: 80px;
+        left: 0;
+    }
+    .servicio_info img {
+        top: 330px;
+    }
+    .variedades_info .cnt img {
+        height: 80px;
+        padding: 0;
+        margin: 0;
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        -o-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    .complementos_info h5 {
+        font-size: 35px;
+    }
+    .slider_strauss img {
+        width: 100%;
+    }
+    .slider {
+        height: 700px;
+    }
+    .slider iframe {
+        top: 520px;
+        left: 0;
+        z-index: 10000;
+    }
+    .menu_informate {
+        margin-top: 0px !important;
+    }
+    .imgsdcn {
+        left: -300px !important;
+    }
+    #btn_360_q {
+        left: 210px;
+    }
+}
+

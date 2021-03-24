@@ -1,0 +1,43 @@
+#barracookies {
+    display: none;
+    z-index: 99999;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    min-height: 40px;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.9);
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#barracookies .acepta-cookies {
+    padding: 2px 20px;
+    background-color: #4682B4;
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-decoration: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#barracookies .acepta-cookies:hover {
+    background-color: #666666;
+    color: #FFFFFF;
+}
+
+#barracookies a {
+    color: #cccccc;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#barracookies a:hover {
+    color: #4682B4;
+}

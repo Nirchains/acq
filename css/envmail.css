@@ -1,0 +1,316 @@
+#cnclbtn, #cnclbtn-2 {
+    color: #ffdada;
+}
+
+.frmblnc, .frmblnc-2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9500;
+    background: rgba(255, 255, 255, 0.9);
+    visibility: hidden;
+}
+
+.hablamos_informate, .modal-descarga-app {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 160px;
+    color: #fff;
+    position: fixed;
+    z-index: 10000;
+    visibility: hidden;
+}
+
+.hablamos_informate .col-sm-4,
+.hablamos_informate .col-sm-8 {
+    height: 320px;
+    background: #007ab5;
+    -webkit-border-radius: 15px !important;
+    -moz-border-radius: 15px !important;
+    -ms-border-radius: 15px !important;
+    -o-border-radius: 15px !important;
+    border-radius: 15px !important;
+}
+
+.hablamos_informate .col-sm-4 h4,
+.hablamos_informate .col-sm-4 h5 {
+    text-align: center;
+}
+
+.hablamos_informate .col-sm-4 h4 {
+    font-size: 2.6em;
+    border-bottom: solid #fff 2px;
+}
+
+.hablamos_informate .col-sm-4 h5 {
+    font-size: 2.8em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hablamos_informate .col-sm-4 p {
+    font-size: 0.7em;
+    line-height: 5px;
+}
+
+#cnclbtn, #cnclbtn-2 {
+    display: block;
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: -25px;
+    right: 10px;
+    text-align: center;
+    z-index: 5000;
+    border: solid #f00 1px;
+    border-radius: 100px !important;
+    text-decoration: none;
+    color: #f00 !important;
+    font-weight: bold;
+}
+
+#tipoclienterror,
+#tipointereserror,
+#chkbxerror {
+    color: #ff0808;
+    background: #fcffa2;
+    padding: 2px;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+    border-radius: 5px !important;
+}
+
+#sepserv {
+    margin-top: 80px;
+}
+
+.hablamos_informate .col-sm-4 img {
+    display: block;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#sepbd {
+    border-bottom: solid #0584c2 1px;
+}
+
+#sepbdtp {
+    border-bottom: solid #0584c2 1px;
+    padding-top: 25px;
+}
+
+.hablamos_informate .col-sm-8 {
+    border-left: solid #fff 4px;
+}
+
+.hablamos_informate .col-sm-8 h5 {
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 5px;
+    border-bottom: solid #fff 2px;
+    margin-bottom: 25px;
+}
+
+.hablamos_informate .col-sm-8 p {
+    text-align: center;
+}
+
+.hablamos_informate .col-sm-8 label {
+    width: 25%;
+    text-align: right;
+    float: left;
+    font-weight: normal !important;
+}
+
+.hablamos_informate .col-sm-8 input[type="text"],
+.hablamos_informate .col-sm-8 input[type="email"],
+.hablamos_informate .col-sm-8 input[type="tel"] {
+    width: 70%;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 27px;
+    color: #055b7b;
+    font-weight: bold;
+    background: #deeef6;
+    border: none !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+    border-radius: 5px !important;
+}
+
+.hablamos_informate .col-sm-8 .radtcl label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    margin-left: 35px;
+    margin-right: 65px;
+    padding-left: 30px;
+    font-size: 13px;
+    width: 0 !important;
+}
+
+.hablamos_informate .col-sm-8 .radtcl input[type=radio] {
+    display: none;
+}
+
+.hablamos_informate .col-sm-8 .radtcl label:before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    background-color: #fff;
+    box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+}
+
+.hablamos_informate .col-sm-8 .radtcl label:before {
+    border-radius: 8px;
+}
+
+.hablamos_informate .col-sm-8 .radtcl input[type=radio]:checked + label:before {
+    content: "\2022";
+    color: #016e97;
+    font-size: 30px;
+    text-align: center;
+    line-height: 18px;
+}
+
+.radtin p {
+    margin-top: -50px;
+    margin-left: 40px;
+}
+
+#tipointeres {
+    text-align: left !important;
+    margin-top: -25px !important;
+    margin-left: 10px !important;
+}
+
+.hablamos_informate .col-sm-8 .radtin label {
+    display: block !important;
+    cursor: pointer;
+    position: relative;
+    font-size: 11px;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: left !important;
+    padding-left: 20px !important;
+}
+
+.hablamos_informate .col-sm-8 .radtin input[type=radio] {
+    display: none;
+}
+
+.hablamos_informate .col-sm-8 .radtin label:before {
+    content: "";
+    display: block !important;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    background-color: #fff;
+    box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+}
+
+.hablamos_informate .col-sm-8 .radtin label:before {
+    border-radius: 8px;
+}
+
+.hablamos_informate .col-sm-8 .radtin input[type=radio]:checked + label:before {
+    content: "\2022";
+    color: #016e97;
+    font-size: 30px;
+    text-align: center;
+    line-height: 18px;
+}
+
+.chckbx {
+    padding-left: 20px;
+}
+
+.chckbx label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 15px;
+    font-size: 13px;
+    margin-top: 20px !important;
+    width: auto !important;
+}
+
+.chckbx input[type=checkbox] {
+    display: none;
+}
+
+.chckbx label:before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    background-color: #fff;
+    box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+}
+
+.chckbx label {
+    margin-bottom: 10px;
+}
+
+.chckbx label:before {
+    border-radius: 3px;
+}
+
+.chckbx input[type=checkbox]:checked + label:before {
+    content: "\2713";
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    font-size: 15px;
+    color: #016e97;
+    text-align: center;
+    line-height: 15px;
+}
+
+.chckbx a {
+    color: #fff;
+}
+
+#sendformredac {
+    float: right;
+    margin-right: 100px;
+    display: block;
+    width: 100px;
+    height: 35px;
+    background: #00be00;
+    border: 0;
+    font-weight: bold;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+    border-radius: 10px !important;
+}
+
+#sendformredac:hover {
+    background: #01b001;
+    border: solid #faffb1 1px;
+}
